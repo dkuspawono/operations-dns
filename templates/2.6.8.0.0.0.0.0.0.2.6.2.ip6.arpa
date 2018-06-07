@@ -1,4 +1,4 @@
-; vim: set expandtab:smarttab
+; **vim: **set expandtab:smarttab
 @                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
                                         {{ serial }}    ; serial
                                         12H             ; refresh
