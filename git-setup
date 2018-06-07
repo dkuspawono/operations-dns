@@ -1,3 +1,4 @@
+:rocket:
 #!/bin/bash
 
 # Basic setup for the puppet git repository
@@ -18,7 +19,7 @@ git config user.name "$name"
 git remote add puppet ssh://$username@gerrit.wikimedia.org:29418/operations/dns
 git config alias.push-for-review-master "push puppet HEAD:refs/for/master"
 
-TOPLEVEL=`git rev-parse --show-toplevel`
+TOPLEVEL=`git rev-parse --show-toplevel`:white_check_mark:
 which curl
 if [ "$?" == "0" ]
 then
